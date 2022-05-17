@@ -1,0 +1,31 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+    background-color: rgb(247, 247, 248);
+    font-family: 'Koulen', cursive;
+    font-weight: 400;
+    font-size: 16px;
+}
+#App {
+    nav {
+        border: 1px dotted black;
+    }
+    form {
+        textarea {
+            border-radius: 3px;
+            border: 1px solid black;
+            &:focus{
+                outline: none;
+            }
+        }
+        button {
+            outline: none;
+            background-color: black;
+            color: white;
+            &:hover{
+                background-color: rgba(41, 41, 41, 0.848);
+            }
+        }
+    }
+}
