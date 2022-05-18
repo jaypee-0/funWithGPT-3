@@ -14,9 +14,12 @@ We'd like your app to have a simple-to-use interface that includes the following
 
 ## Overview
 
+![image](https://user-images.githubusercontent.com/32205725/169082061-a7aeb449-17e1-469e-937a-7fa15abf5fd5.png)
+
 
 ## Features
-
+- Responses are stored in order of newest to oldest.
+- Each result includes at least the original prompt entered and the response from the API
 
 ### Built With
 
