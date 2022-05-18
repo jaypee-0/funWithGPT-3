@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.scss';
 import { OpenAIApi, Configuration } from 'openai';
-//import REACT_APP_BASE_KEY from './env';
 
 function App() {
 
