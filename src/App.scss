@@ -10,6 +10,7 @@ body {
 #App {
     nav {
         border: 1px dotted black;
+        margin-left: 5%;
     }
     form {
         textarea {
@@ -19,13 +20,21 @@ body {
                 outline: none;
             }
         }
-        button {
+        button.submit {
             outline: none;
             background-color: black;
             color: white;
             &:hover{
                 background-color: rgba(41, 41, 41, 0.848);
             }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    #App {
+        nav {
+            border: 1px dotted black;
+            margin-left: 2.5%;
         }
     }
 }

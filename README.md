@@ -1,7 +1,7 @@
 <h1 align="center">Fun With GPT-3</h1>
 
 <div align="center">
-     <a href="http://devchallenges.io" target="_blank">Link</a>.
+     <a href="https://fun-with-gpt-3-weld.vercel.app/" target="_blank">Live Preview</a>.
 </div>
 
 ## The Challenge

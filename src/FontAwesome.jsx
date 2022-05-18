@@ -1,4 +1,5 @@
 import { library } from "@fortawesome/fontawesome-svg-core"
-import { faTrashCan } from "@fortawesome/free-solid-svg-icons"
+import {  } from "@fortawesome/free-solid-svg-icons"
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-library.add( faTrashCan );
+library.add( faGithub );
