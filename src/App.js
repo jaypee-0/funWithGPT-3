@@ -13,7 +13,7 @@ const handleSubmit = async(e) => {
   formdeetsobj = Object.fromEntries(formdeets.entries())
   // API
   const configuration = new Configuration({
-    apiKey: `${process.env.OPENAI_API_KEY}`,
+    apiKey: `${process.env.REACT_APP_BASE_KEY}`,
   });
   const openai = new OpenAIApi(configuration);
   setisLoading(true)
