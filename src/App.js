@@ -31,7 +31,7 @@ const handleSubmit = async(e) => {
       id: data.length     
   }, ...data])
   }).catch((error) => {
-    
+    console.log(error)
   });setisLoading(false);
 }
 //storing responses locally
