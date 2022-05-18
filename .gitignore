@@ -3,7 +3,7 @@
 /.pnp
 .pnp.js
 .env
-.env.production
+env.js
 /.vscode
 # testing
 /coverage

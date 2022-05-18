@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.scss';
 import { OpenAIApi, Configuration } from 'openai';
+import REACT_APP_BASE_KEY from './env';
 
 function App() {
 
@@ -13,7 +14,7 @@ const handleSubmit = async(e) => {
   formdeetsobj = Object.fromEntries(formdeets.entries())
   // API
   const configuration = new Configuration({
-    apiKey: `${process.env.REACT_APP_BASE_KEY}`,
+    apiKey: `${REACT_APP_BASE_KEY}`,
   });
   const openai = new OpenAIApi(configuration);
   setisLoading(true)
