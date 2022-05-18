@@ -31,8 +31,8 @@ const handleSubmit = async(e) => {
       response: `${response.data.choices[0].text}`,
       id: data.length     
   }, ...data])
-  }).catch((error) => {
-    console.log(error)
+  }).catch((err) => {
+    console.error(err)
   });setisLoading(false);
 }
 //storing responses locally
