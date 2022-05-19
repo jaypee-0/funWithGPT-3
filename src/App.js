@@ -39,11 +39,14 @@ function App() {
   };
   //storing responses locally
   useEffect(() => {
-    const data = localStorage.getItem('data');
-    if (data) {
-      setdata(JSON.parse(data));
+    const storedata = localStorage.getItem('data');
+    if (storedata) {
+      setdata(JSON.parse(storedata));
     }
   }, []);
+  useEffect(() => {
+    localStorage.setItem('data', JSON.stringify(data))
+  }, [data]);  
 
   return (
     <div id='App' >
