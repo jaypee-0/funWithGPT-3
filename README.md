@@ -20,6 +20,7 @@ We'd like your app to have a simple-to-use interface that includes the following
 ## Features
 - Responses are stored in order of newest to oldest.
 - Each result includes at least the original prompt entered and the response from the API
+- Responses are stored locally upon refresh
 
 ### Built With
 
